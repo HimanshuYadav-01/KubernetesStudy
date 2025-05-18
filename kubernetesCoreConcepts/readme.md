@@ -2,6 +2,7 @@
 
 ### Monolithic vs Microservices
    Monolithic Definition: The entire application’s functionality (UI, backend logic, data access) is built as a single, unified codebase.
+   
    Microservices Definition: The application is split into small, independent services, each responsible for a specific feature or functionality.
 # Kubernetes Architecture Explained
 
