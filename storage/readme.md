@@ -98,15 +98,3 @@ kubectl describe secret <name>                                                  
 > ⚠️ Note: While Secrets are base64-encoded, they are **not encrypted** by default. Use external secret management tools for enhanced security.
 
 ---
-
-## ✅ Final Tip
-
-Keep all your YAML files in a folder like `k8s-yamls/` and apply them using:
-
-```bash
-kubectl apply -f ./k8s-yamls/
-```
-
----
-
-🧡 Happy Kubernetes-ing!
