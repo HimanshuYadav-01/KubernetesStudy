@@ -1,18 +1,12 @@
 ## **Core Concepts**
 
-### Monolithic vs Microservices, Kubernetes Architecture
-
+### Monolithic vs Microservices
+   Monolithic Definition: The entire application’s functionality (UI, backend logic, data access) is built as a single, unified codebase.
+   Microservices Definition: The application is split into small, independent services, each responsible for a specific feature or functionality.
 # Kubernetes Architecture Explained
 
 This document explains the key components that make up the architecture of a Kubernetes cluster, in simple terms.
 
-## Table of Contents
-
-- [Control Plane (Master Node Components)](#control-plane-master-node-components)
-- [Worker Node Components](#worker-node-components)
-- [Other Components](#other-components)
-
----
 
 ![Kubernetes Architecture Diagram](https://miro.medium.com/v2/resize:fit:1400/1*0Sudxeu5mQyN3ahi1FV49A.png)
 
@@ -81,8 +75,8 @@ Think of this as the "front door" for external access to your applications, cont
 
 
 
-```
 
+### Commands
 ---
 1. `kubectl cluster-info`  
    - Displays cluster information to understand the Kubernetes architecture.
