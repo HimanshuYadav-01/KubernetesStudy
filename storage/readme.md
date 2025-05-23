@@ -1,4 +1,3 @@
-
 # 📦 Kubernetes: Storage and Configuration Management
 
 ## 📁 Persistent Volumes (PV)
