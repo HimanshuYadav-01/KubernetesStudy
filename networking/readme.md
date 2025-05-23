@@ -1,4 +1,4 @@
-# Kubernetes Networking
+# Kubernetes Networking 
 
 This document covers the core concepts of Kubernetes networking, including **Cluster Networking**, **Services**, **Ingress**, and **Network Policies**. It also provides common commands to manage these resources.
 
