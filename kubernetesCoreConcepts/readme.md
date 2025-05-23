@@ -1,4 +1,4 @@
-## **Core Concepts**
+## **Core Concepts.**
 
 ### Monolithic vs Microservices
    Monolithic Definition: The entire application’s functionality (UI, backend logic, data access) is built as a single, unified codebase.
