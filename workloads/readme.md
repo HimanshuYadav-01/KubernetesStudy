@@ -1,4 +1,4 @@
-# Kubernetes Workloads
+# Kubernetes Workloads 
 
 This document explains the core Kubernetes workload resources including **Deployments**, **StatefulSets**, **DaemonSets**, **ReplicaSets**, **Jobs**, and **CronJobs**. It covers their definitions, key characteristics, and common `kubectl` commands to manage them.
 
