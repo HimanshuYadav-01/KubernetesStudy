@@ -1,4 +1,3 @@
-
 # 📈 Kubernetes Vertical Pod Autoscaler (VPA) Demo
 
 ## 📖 What is VPA in Kubernetes?
