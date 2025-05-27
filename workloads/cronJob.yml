@@ -1,0 +1,25 @@
+kind: CronJob
+apiVersion: batch/v1
+metadata:
+  name: minute-backup # Name of the CronJob
+  namespace: nginx
+spec:
+  schedule: "* * * * *" # Run the job every minute; a new pod will be created every minute to execute the command
+  jobTemplate: # Template for the job to be created by the CronJob
+    spec:
+      template:
+        metadata: 
+          name: minute-backup # Name of the pod created by the job
+          labels:
+            app: minute-backup
+        spec:
+          containers:
+          - name: backup-container  # Name of the container inside the pod
+            image: busybox:latest
+            command:
+            - sh
+            - -c
+            - >
+              echo 'Backup started';
+              echo 'Backup ended';
+          restartPolicy: OnFailure # Pod will restart only if the container fails
