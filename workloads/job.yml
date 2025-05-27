@@ -1,0 +1,20 @@
+kind: Job
+apiVersion: batch/v1
+metadata: 
+  name: demo-job # You can give your custom name
+  namespace: nginx
+spec: # Specification of the job
+  completions: 1 # Job will run only once
+  parallelism: 1 # Number of pods that will run the same job concurrently
+
+  template: # Defining the pod template
+    metadata:  
+      name: demo-job-pod
+      labels: 
+        app: batch-task
+    spec: 
+      containers: # Specification for the container inside the pod
+      - name: batch-container
+        image: busybox:latest # Image that will run the commands inside the container
+        command: ["sh", "-c", "echo hello in job demo && sleep 10"]
+      restartPolicy: Never # Restart policy of the pod
