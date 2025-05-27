@@ -1,9 +1,5 @@
 # KubernetesStudy
 
-# 📦 KubernetesCoreConcepts
-
-Welcome to the **KubernetesCoreConcepts** repository! This project is organized to help you understand and practice the core components of Kubernetes with proper YAML examples and detailed explanations.
-
 ## 📘 How to Use
 
 To make the most of this repository, **go through this `README.md` file to navigate the folders and files properly**. Each directory contains relevant Kubernetes concepts with YAML manifests and explanations to guide your learning and implementation.
@@ -13,6 +9,14 @@ To make the most of this repository, **go through this `README.md` file to navig
 - Basic understanding of Kubernetes
 - A working Kubernetes cluster (Minikube, KIND, GKE, etc.)
 - `kubectl` configured and working
+
+---
+
+# 📦 KubernetesCoreConcepts
+
+Welcome to the **KubernetesCoreConcepts** repository! This project is organized to help you understand and practice the core components of Kubernetes with proper YAML examples and detailed explanations.
+
+
 ---
 
 ## 🧭 Suggested Navigation
