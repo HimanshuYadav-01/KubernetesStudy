@@ -1,0 +1,16 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata: 
+  name: local-pv
+  namespace: nginx
+  labels: 
+    app: local
+spec: 
+  capacity: 
+    storage: 1Gi
+  accessModes: 
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: local-storage #local host pe data store kr rhe hai , other options=network storage...
+  hostpath:
+    path: /mnt/data
