@@ -1,9 +1,4 @@
-```
-# Kubernetes Scaling & Scheduling – Quick Guide
-
 This document includes concise explanations and commonly used `kubectl` commands for Kubernetes scaling and scheduling features like HPA, VPA, Node Affinity, Taints and Tolerations, ResourceQuotas, and LimitRanges.
-
----
 
 ## 🔁 Horizontal Pod Autoscaler (HPA)
 
