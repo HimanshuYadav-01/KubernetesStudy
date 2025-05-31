@@ -53,6 +53,8 @@ This folder focuses on Kubernetes storage concepts, complete with YAML examples 
 - **ConfigMap**
 - **Secrets**
 - **StorageClasses**
+- **configMap**
+- **Secrets**
 
 Understand how Kubernetes handles data, secrets, and configurations effectively.
 
@@ -66,6 +68,17 @@ Networking plays a vital role in Kubernetes. This folder includes:
 - **Cluster Networking** – How pods communicate in the cluster
 - **Network Policies** – Rules to control traffic
 - **Types of Services** – Detailed overview of ClusterIP, NodePort, LoadBalancer, and Headless services
-
+- **ingress.yml** - Defines Ingress resource to route external traffic to internal services using hostname/path-based rules
 ---
 
+### 4. `scheduling-resources/` ⚙️  
+Contains manifests for Kubernetes scheduling and resource management:
+
+- **hpa.yml** – Horizontal Pod Autoscaler to auto-scale pods based on CPU/memory usage.  
+- **vpa.yml** – Vertical Pod Autoscaler to adjust pod resource requests dynamically.  
+- **node-affinity.yml** – Rules to control pod placement based on node labels.  
+- **taints-tolerations.yml** – Allows pods to run on nodes with specific taints.  
+- **resource-quota.yml** – Limits resource usage per namespace to prevent overconsumption.  
+- **limit-range.yml** – Sets default resource requests and limits for containers in a namespace.  
+
+---
