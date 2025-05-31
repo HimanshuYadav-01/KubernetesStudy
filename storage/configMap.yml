@@ -1,0 +1,9 @@
+# for seperating and avoiding hardcoding value in sateful file we use config file
+# normal values yha we can put
+kind: ConfigMap
+apiVersion: v1
+metadata: 
+  name: mysql-config-map
+  namespace: mysql
+data: 
+  MYSQL_DATABASE: devops #container k andar ye db bn jayega
