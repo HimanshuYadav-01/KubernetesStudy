@@ -79,6 +79,7 @@ Contains manifests for Kubernetes scheduling and resource management:
 - **node-affinity.yml** – Rules to control pod placement based on node labels.  
 - **taints-tolerations.yml** – Allows pods to run on nodes with specific taints.  
 - **resource-quota.yml** – Limits resource usage per namespace to prevent overconsumption.  
-- **limit-range.yml** – Sets default resource requests and limits for containers in a namespace.  
+- **limit-range.yml** – Sets default resource requests and limits for containers in a namespace.
+- **probes.yml** – Its checks whether server is ready to serve , restarts pod depending of type of probe configuration.
 
 ---
