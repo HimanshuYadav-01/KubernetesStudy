@@ -1,0 +1,10 @@
+# it is a actual custom resource 
+kind: DevOpsBatch
+apiVersion: trainwithshubham.com/v1
+metadata: 
+  name: junoon-batch-9
+spec: 
+  name: Devops-Zero to Hero Junnon Batch 9
+  duration: 3 months batch
+  platform: trainwithshubham.com
+  mode: live
