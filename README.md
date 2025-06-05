@@ -40,6 +40,8 @@ This directory contains Kubernetes workloads YAML files and explanations for:
 - **Job**  
 - **CronJob**  
 - **StatefulSet**
+- **InitContainer**
+- **SidecarContainer**
 
 Each concept is paired with a YAML file and a short description to explain its purpose and usage.
 
@@ -83,3 +85,12 @@ Contains manifests for Kubernetes scheduling and resource management:
 - **probes.yml** – Its checks whether server is ready to serve , restarts pod depending of type of probe configuration.
 
 ---
+
+### 5. `cluster-administration/` 🛡️  
+Contains manifests for Kubernetes cluster access, permissions, and custom resources:
+
+- **role.yml** – Defines a set of permissions (verbs on resources) within a specific namespace.  
+- **rolebinding.yml** – Binds a Role to a user, group, or ServiceAccount within a namespace.  
+- **serviceAccount.yml** – Creates a ServiceAccount for pod authentication and access control.  
+- **customResourceDefinition.crd** – Defines custom Kubernetes resources (CRDs) that extend the API with domain-specific objects.
+
